@@ -49,9 +49,9 @@ for (let customer of customers) {
   card.appendChild(email);
 
   let address = document.createElement("div");
-  address.innerText = `${customer.location.street.number} ${
-    customer.location.street.name
-  }
+  address.innerText = `${
+    customer.location.street.number
+  } ${customer.location.street.name.trim()}
   ${customer.location.city}, ${nameToAbbr(customer.location.state)} ${
     customer.location.postcode
   }`;
