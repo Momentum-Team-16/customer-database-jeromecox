@@ -42,14 +42,11 @@ for (let customer of customers) {
   content.classList.add("medium");
 
   let email = document.createElement("a");
+  email.classList.add("emailLink");
   let emailText = document.createTextNode(`${customer.email}`);
   email.appendChild(emailText);
-  email.href = `${emailText}`;
+  email.href = `mailto:${customer.email}`;
   card.appendChild(email);
-
-  // let email = document.createElement("div");
-  // email.innerText = `${customer.email}`;
-  // content.appendChild(email);
 
   let address = document.createElement("div");
   address.innerText = `${customer.location.street.number} ${

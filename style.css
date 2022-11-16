@@ -24,6 +24,10 @@ h2 {
   width: 18rem;
 }
 
+.emailLink {
+  color: gray;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
