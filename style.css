@@ -13,10 +13,6 @@
   flex-wrap: wrap;
 }
 
-.thumb {
-  width: 70vw;
-}
-
 .card {
   display: flex;
   flex-direction: column;
