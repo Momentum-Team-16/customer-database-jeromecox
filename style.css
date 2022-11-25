@@ -20,6 +20,7 @@
   align-items: center;
   width: 18rem;
   margin: 10px 10px;
+  padding-top: 8px;
 }
 
 .card:hover {
