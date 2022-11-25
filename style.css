@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #e6ebf0;
 }
 
 #page-title {
@@ -18,14 +19,16 @@
   flex-direction: column;
   align-items: center;
   width: 18rem;
+  margin: 10px 10px;
 }
 
-.emailLink {
-  color: gray;
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  background-color: white;
 }
